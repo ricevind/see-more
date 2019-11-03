@@ -1,6 +1,8 @@
-<div class="wrapper" >
-  <app-see-more [numberOfLines]="3" style="line-height: 2; font-size: 25px">
-    shhhdsfdf pjapj pjpajpjpjpjp sdah kshdf lkhlksdh shhhdsfdf ahsdfhsjldh sdah kshdf
-    shhhdsfdf ahsdfhsjldh sdah pjapj pjpajpjpjpj shhhdsfdf ahsdfhsjldh pjapj pjpajpjpjpj
-  </app-see-more>
+<div class="wrapper">
+  <app-see-more
+    [(showMore)]="showMore"
+    [numberOfLines]="3"
+    style="line-height: 2; font-size: 25px"
+    >{{ content }}</app-see-more
+  >
 </div>
