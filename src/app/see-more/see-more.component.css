@@ -1,0 +1,11 @@
+:host {
+  display: block;
+  position: relative;
+  background-color: inherit;
+}
+
+[seeMoreAction] {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
